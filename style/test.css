@@ -1,0 +1,109 @@
+@media(max-width:768px) {
+
+    .display-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 309.2vh;
+        margin-top: 0;
+        margin-bottom: 0;
+
+
+    }
+
+
+    .left-img {
+        margin-left: 10px;
+    }
+
+    .see-the-world-head {
+        width: 100vw;
+        height: 51vh;
+        background-color: #020253;
+        grid-column-start: 3;
+        grid-row-start: 1;
+        grid-column-end: 4;
+        grid-row-end: 1;
+    }
+
+    .positioner {
+        margin-top: 117px;
+    }
+
+
+    .positioner>h1 {
+        color: #0EE1DA;
+        font-size: 2.25rem;
+        margin-bottom: 17px;
+    }
+
+    .positioner>p {
+        color: #F9F9F9;
+        font-size: 1.25rem;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+
+
+
+
+
+
+
+    .form-div {
+        width: 89.4vw;
+        height: 83.8vh;
+        margin-top: 11px;
+        margin-left: 20px;
+    }
+
+    .form-head {
+        margin-top: 58px;
+    }
+
+    .form-head>h2 {
+        font-size: 1.5rem;
+        margin-bottom: 11px;
+    }
+
+    .form-head>p {
+        padding-left: 55px;
+        padding-right: 55px;
+        font-size: 0.9rem;
+    }
+
+
+    form {
+        margin-left: 26px;
+        margin-top: 29px;
+    }
+
+    form>label {
+        font-size: 0.5rem;
+        padding-bottom: 3px;
+
+    }
+
+    form>input {
+        width: 75.5vw;
+        height: 5.4vh;
+        font-size: 0.9rem;
+        border-bottom: 3px solid #0EE1DA;
+        margin-bottom: 11px;
+
+    }
+
+    textarea {
+        width: 75.5vw;
+        height: 14.5vh;
+        font-size: 1rem;
+        margin-bottom: 11px;
+    }
+
+    .form-button {
+        font-size: 0.75rem;
+    }
+
+
+}

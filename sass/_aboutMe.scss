@@ -1,0 +1,122 @@
+#aboutme {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    box-shadow: 5px 5px 5px rgb(131, 130, 130, 0.557);
+    background-image: url(/images/aboutmebgc2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -215px;
+}
+
+#aboutme section {
+    width: 798px;
+    height: 650px;
+    border: 1px solid black;
+    color: white;
+    backdrop-filter: blur(2px);
+    background-color: #00000053;
+    border-radius: 50px;
+}
+
+.first-about-me-div {
+    width: 798px;
+    height: 351px;
+}
+
+.aboutme-text-div {
+    width: 798px;
+    height: 232px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.aboutme-text-div>img {
+    width: 141px;
+    height: 139px;
+
+}
+
+
+.aboutme-text-div>h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.aboutme-text-div>p {
+    font-size: 1.2rem;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.aboutme-text-div>h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+.about-me-btn {
+    font-size: 1rem;
+    margin-top: 25px;
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+}
+
+.about-me-btn::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.about-me-btn::before {
+    content: "";
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #ff00c8, #ff0000, );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.about-me-btn:hover::before {
+    opacity: 1;
+}

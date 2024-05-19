@@ -1,0 +1,47 @@
+.portfolio {
+    background-image: url(/images/gamingsetup.jpg);
+    background-position: 0 -25px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 610px;
+}
+
+.portfolio h1 {
+    font-size: 5rem;
+    font-family: "Montserrat";
+    font-weight: normal;
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.portfolio p {
+    font-size: 2rem;
+    font-family: "Montserrat";
+    padding: 5px;
+    color: white;
+}
+
+
+.code-logo {
+    background-color: rgba(234, 234, 234, 0.953);
+    box-shadow: 5px 5px 5px rgba(131, 130, 130, 0.557);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+    gap: 100px;
+}
+
+.code-logo img {
+    height: 65px;
+    width: 65px;
+
+}

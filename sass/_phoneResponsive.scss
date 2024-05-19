@@ -1,0 +1,226 @@
+@media (max-width:768px) {
+
+    body {
+        font-family: "Montserrat";
+    }
+
+    .navdiv {
+        width: 100vw;
+        height: 6vh;
+    }
+
+    ul {
+        background-color: #111111ba;
+        list-style-type: none;
+        display: none;
+        margin-left: 0;
+
+    }
+
+    nav ul li {
+        border-bottom: 1px solid white;
+        float: none;
+    }
+
+    nav ul li a {
+        text-align: inherit;
+
+    }
+
+    .hamburger:hover+ul {
+        display: block;
+        margin-top: 6vh;
+
+    }
+
+    .hamburger {
+        display: block;
+        width: 95vw;
+        height: 8vh;
+        left: 3vw;
+        top: 0.9vh;
+    }
+
+    .logo {
+        right: 5vw;
+        width: 10vw;
+        height: 5vh;
+        top: 0.5vh;
+    }
+
+
+
+    .logo-div p {
+        right: 17vw;
+        top: 1.7vh;
+        font-size: 1rem;
+    }
+
+    .portfolio {
+        background-image: url(/images/phonegamingsetup.jpg);
+        width: 100vw;
+        height: 25vh;
+        background-position: -5px 0px;
+        background-size: cover;
+
+    }
+
+    .portfolio h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+        margin-top: 30px;
+
+
+    }
+
+    .portfolio p {
+        font-size: 0.9rem;
+
+
+    }
+
+    .code-logo {
+        width: 100vw;
+        height: 8vh;
+        gap: 20vw;
+    }
+
+    .code-logo img {
+        height: 10vh;
+        width: 5vw;
+
+    }
+
+    #aboutme {
+        width: 100vw;
+        height: 120vh;
+        background-image: url(/images/phoneaboutmebgc2.jpg);
+        background-position: 0 0;
+    }
+
+    #aboutme section {
+        width: 95vw;
+        height: 105vh;
+        background-color: #00000086;
+    }
+
+    .first-about-me-div {
+        width: 95vw;
+    }
+
+    .aboutme-text-div>h2 {
+        font-size: 2.5rem;
+    }
+
+    .aboutme-text-div>p {
+        font-size: 0.9rem;
+    }
+
+    .aboutme-text-div {
+        width: 95vw;
+    }
+
+    #gallery {
+        width: 100vw;
+        height: 545vh;
+        background-image: url(/images/phonegallerybg.jpg);
+        background-position: -640px 0;
+
+    }
+
+    .first-gallery-container p {
+        font-size: 1rem;
+    }
+
+
+    .the-projects-order {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        width: 100vw;
+    }
+
+    .projects {
+        width: 95vw;
+        margin-left: 9px;
+    }
+
+    .sm-img {
+        width: 95vw;
+    }
+
+    .gallery-head {
+        width: 90vw;
+        font-size: 0.9rem;
+    }
+
+    .the-projects-order {
+        margin: 0;
+    }
+
+    #contactus {
+        width: 100vw;
+        height: 215vh;
+    }
+
+    .contactusheader {
+        width: 95vw;
+        margin-left: 4.8vw;
+        margin-top: 15vh;
+    }
+
+    .contactusheader>h2 {
+        margin-bottom: 2vh;
+    }
+
+    .contactusheader>p {
+        font-size: 1.1rem;
+    }
+
+    .contactus-img {
+        width: 50vw;
+        grid-column-start: 3;
+    }
+
+    .form-div {
+        margin-left: 4.8vw;
+        grid-row-start: 7;
+    }
+
+    form {
+        width: 95vw;
+    }
+
+    form input {
+        width: 90.5vw;
+        height: 6vh;
+        font-size: 1.3rem;
+    }
+
+    form label {
+        font-size: 1.2rem;
+        width: 66vw;
+    }
+
+    form textarea {
+        width: 90.5vw;
+        font-size: 1.3rem;
+    }
+
+    .icon-div {
+        grid-column-end: 4;
+        grid-row-end: 19;
+    }
+
+    .icon-display {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .credit {
+        grid-column-end: 4;
+        height: 4vh;
+        grid-row-start: 34;
+    }
+}
